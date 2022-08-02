@@ -1,0 +1,187 @@
+.body {
+    position: relative;
+    background-image: url(img/mountains-gc4e169219_1920.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-2 {
+    position: relative;
+    background-image: url(img/day.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-3{
+    position: relative;
+    background-image: url(img/night.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-image: url(img/mountains-gc4e169219_1920.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0%;
+    position: relative;
+}
+
+.container-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-image: url(img/day.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0%;
+    position: relative;
+}
+.container-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-image: url(img/night.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0%;
+    position: relative;
+}
+/* ===========    Left Side    ================= */
+.left-info {
+    height: 100%;
+    padding: 15px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.icon {
+    margin-left: 40px;
+}
+
+.icon img {
+    backdrop-filter: blur(16px);
+    border-radius: 50%;
+    border: 2px solid #fa5b0f;
+    width: 100%;
+    max-width: 74px;
+}
+
+.left-info h5 {
+    margin-left: 40px;
+}
+
+.details {
+    
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /* background-color: red; */
+    width: 100%;
+    max-width: 47em;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    max-height: 12em;
+    margin-left: 40px;
+    
+}
+
+
+/* ===========    Right Side    ================= */
+.right-info {
+    height: 100%;
+    width: 100%;
+    max-width: 24em;
+    backdrop-filter: blur(10px);
+    padding: 15px;
+    color: aliceblue;
+    
+}
+
+.right-info::before {
+    content: "";
+    width: 2px;
+    position: absolute;
+    height: 80vh;
+    left: 0px;
+    top: 0px;
+    background-color: #fa5b0f;
+}
+
+.details-2 {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    max-height: 30em;
+    padding: 15px;
+    line-height:3;
+}
+
+.geo::before {
+    content: "";
+    width: 78%;
+    position: absolute;
+    height: 1px;
+    left: 40px;
+    top: 19em;
+    background-color: #fa5b0f;
+}
+.country::before {
+    content: "";
+    width: 100%;
+    position: absolute;
+    height: 2px;
+    left: 0px;
+    top: 100%;
+    left: 0px;
+    background-color: #fa5b0f;
+}
+
+.country {
+    margin-bottom: 40px;
+    align-items: flex-end;
+    
+}
+
+.link a {
+    position: absolute;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #fa5b0f;
+    border-radius: 22px;
+    padding: 0 10px 0 10px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+.link a:hover{
+    transform: scale(1.1);
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather</title>
+  </head>
+  <body class="body">
+    <div class="container">
+      <div class="col left-info">
+        <!-- <img
+                src="img/mountains-g581416b11_1920.jpg"
+                class="time card-img-top"
+              /> -->
+
+        <div class="text-center details d-none">
+          <div class="display-4">
+            <span>temp</span>
+            <span>&deg;C</span>
+          </div>
+          <div>
+            <h5 class="display-4">City name</h5>
+            <p>Region</p>
+          </div>
+          <div class="icon">
+            <img src="img/icons/1.svg" alt="" />
+            <div>Weather condition</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="line"></div>
+
+      <!-- ==========  RIGHT SIDE  ========== -->
+      <div class="col right-info">
+        <form class="change-location my-4 text-center">
+          <label for="city"> Enter a location for weather information</label>
+          <input type="text" name="city" class="form-control p-1 mt-3" />
+        </form>
+
+        <div class="details-2 d-none">
+          <h5>GeoPosition</h5>
+          <div class="geo">
+            <p>Latitude</p>
+            <p>Longitude</p>
+          </div>
+
+          <h5>Country:</h5>
+          <div class="country">
+            <p>EnglishName:(ID)</p>
+          </div>
+
+          <div class="link">
+            <a href="#" target="_blank">More Details</a>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <script src="scripts/forecast.js"></script>
+    <script src="scripts/app.js"></script>
+  </body>
+</html>
